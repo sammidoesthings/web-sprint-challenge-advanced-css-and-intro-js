@@ -254,21 +254,21 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
-function get20s(/*Your Code Here*/) {
-  /*Your Code Here*/
+function get20s(array) {
+  let answerArray = [];
+  for (let i = 0; i < array.length; i++) {
+    const yearString = array[i].years;
+    const split = yearString.split(' - ');
+    const birth = Number(split[0])
+    const death = Number(split[1])
+    if (birth >= 1900 && death <= 2000){
+      answerArray.push(array[i].name);
+    }
+  }
+  return answerArray;
 }
 
-//attempt one before help, attempt two is not even close to functioning
-// function get20s(array) {
-//   // let newArray = []
-//   for (let i = 0; i < array.length; i++) {
-//     if (array[i].years = "1901 - 2000") {
-//       console.log(array[i].name)
-//     }
-//   }
-  // return newArray
-        // console.log("did it")
-// }
+get20s(artists)
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
