@@ -126,7 +126,6 @@ button:hover{
     width:80%;
     margin:0 auto;
 }
-
 .artist{
     width:40%;
     text-align:center;
@@ -134,3 +133,69 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+
+
+/*MEDIA CSS*/
+
+@media (max-width: 500px) {
+.header{
+    display: flex;
+    justify-content:center;
+}
+nav{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+nav a{
+    font-size: 90%;
+}
+
+nav span{
+    border-left: 2px solid #626262;
+}
+
+/*title-container section*/
+
+.title-container div{
+    width: 100%;
+    margin: 0;
+    margin-top: 3%;
+    height: 45vh;
+}
+
+h1{
+    font-size: 300%;
+}
+.title-container hr{
+    width: 100%;
+}
+
+/*artists-container section*/
+
+.artists-container{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.artist{
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    margin: 0 auto;
+}
+.artist a{
+    font-size: 100%;
+}
+.artist img{
+    height: 30%;
+    width: 70%;
+}
+.artist div{
+    font-size: 70%;
+}
+} /*end of media css*/
