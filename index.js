@@ -258,6 +258,17 @@ function get20s(/*Your Code Here*/) {
   /*Your Code Here*/
 }
 
+//attempt one before help, attempt two is not even close to functioning
+// function get20s(array) {
+//   // let newArray = []
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i].years = "1901 - 2000") {
+//       console.log(array[i].name)
+//     }
+//   }
+  // return newArray
+        // console.log("did it")
+// }
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
