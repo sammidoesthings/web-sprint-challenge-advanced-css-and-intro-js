@@ -22,12 +22,16 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
+1. How would you describe accessibility on the web to someone new to programming?
+    Accessibility on the web is making sure that you are writing your code in a way that is easier for accessibility tools to read and interpret it. You want your audience, no matter the disability they may have, to be able to use the tools they have (screen readers, magnifying, etc) to use your website efficiently.
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+    To make your website accessible, you use responsive, not fixed, units of measurement for font sizes, height or width. You should include descriptive text for the alt attribute of images, and include visual icons in addition to colorfully displayed elements for the colorblind. Using semantic tags is important to give your webpage a heirarchy, so that screen readers can navigate the website more easily.
 3. How would you explain the concept of a variable to someone new to programming?
+    A variable is a container that holds information--you can change the name on the variable without changing the information inside, or you can change the information inside without changing the name, depending on how you created the variable in the first place.
 4. What is the purpose of using functions in code?
+    Using functions in code allow us to avoid writing repeating blocks of code, so that our code not only is easier to read and understand, but also to add to or continue development on, since you only have to remember the name of a function to call it instead of several, possibly complicated, lines of code to perform the same task. Functions also allow us to work within different scopes.
 5. How do you access a key inside of an object inside of an array?
-
+    arrayName[indexPos].keyValue
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
